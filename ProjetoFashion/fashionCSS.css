@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imgtopo{
+    background-image: url("imagens/topo.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    border-top: 50px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
+
+.imgtopo ul {
+    text-align: right;
+    background-color: #060620;
+    margin-top: -20px;
+}
+
+.imgtopo li{
+    display: inline-block;
+    list-style: none; /*tirar o ponto da lista*/
+    padding: 10px;
+    height: 20px;
+    padding-bottom: 10px;
+   
+}
+
+#logo{
+    border-right: 420px solid transparent;
+}
+
+
+.imgtopo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #045174;
+    font-size:15px;
+    margin-left: 5px;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid transparent;
+    height: 200px;
+    transition: color .3s linear; /*demora pra apagar o HOVER*/
+    
+}
+
+.imgtopo a:hover{
+    color:white;
+    opacity: 0.7;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.conteudo1 h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.conteudo1 p{
+    color: gray;
+    font-size: 19px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-top: 10px solid transparent;
+}
+
+.card h4{
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+}
+
+
+.card p{
+    text-align: center;
+    color: gray;
+}
+ 
+.bgfundo{
+    background-image: url("imagens/bg_detalhe.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 1000px;
+    border-left: 25px solid transparent;
+}
+
+.bgfundo h1{
+    position:relative;
+    padding-top:100px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-size: 35px;
+}
+
+.bgfundo p{
+    padding-left: 100px;
+    padding-right: 400px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.numero {
+    text-align: center;
+    text-transform: uppercase;
+    color: #034969;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+footer{
+    background-color:#060620;
+    margin-top: 20px;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+    color: #045174;
+    letter-spacing: 3px;
+}
